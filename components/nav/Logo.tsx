@@ -20,7 +20,13 @@ const Logo = () => {
             alt = "Logo"
             height={60}
             width={40}
-            className="rounded-lg m-2 cursor-pointer"
+            className="
+              rounded-lg 
+              m-2 
+              cursor-pointer
+              sm:h-16 lg:h-20
+              sm:w-16 lg:w-20
+            "
         />
 
         <p className = {`${poppins.className} 

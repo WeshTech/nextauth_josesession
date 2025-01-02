@@ -8,7 +8,7 @@ import User from "./User";
 const Navbar = () => {
   return (
     <nav>
-        <div className="fixed shadow-md bg-rose-300 w-full z-50">
+        <div className="fixed top-0 right-0 left-0 shadow-md bg-rose-300 w-full z-50">
             <Container>
                 <div className="flex justify-between items-center">
                     <div>
