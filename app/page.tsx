@@ -1,11 +1,9 @@
-import RegisterForm from "@/components/auth/RegisterForm";
-import Navbar from "@/components/nav/Navbar";
+import HomePage from "@/components/landing/HomePage";
 
 export default function Home() {
   return (
     <>
-        <Navbar />
-        <RegisterForm />
+      <HomePage />
     </>
   );
 }
